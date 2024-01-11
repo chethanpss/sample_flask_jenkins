@@ -3,6 +3,6 @@ version: '3'
 services:
   flask-app-jenkins-1.0.0:
     image: flask_app_with_jenkins:1.0.0    # your image name with tag
-    container_name: flask_app_jenkins_1.0.0   # Valid container name
+    container_name: flask_app_jenkins   # Valid container name
     ports:
       - "4000:5000" 
